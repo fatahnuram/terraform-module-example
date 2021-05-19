@@ -4,5 +4,7 @@ resource "aws_subnet" "main" {
 
   tags = {
     Name = "Example subnet for block ${var.subnet_cidr}"
+    Quote = "Will code for food"
+    AdditionalQuote = "What you code is what you get"
   }
 }
